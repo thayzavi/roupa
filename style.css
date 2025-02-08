@@ -7,7 +7,7 @@
 body{
     background-color: #fff;
 }
-.btn-defaul{
+.btn-default{
     border: none;
     display: flex;
     align-items: center;
@@ -16,11 +16,11 @@ body{
     border-radius: 12px;
     padding: 10px 14px;
     font-weight: 600;
-    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 1);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     transition: .3s ease;
 }
-.btn-defaul:hover{
+.btn-default:hover{
     background-color: #fdd976;
 }
 /* header */
@@ -38,7 +38,7 @@ header{
     font-size: 24px;
     color: #bd8b02;
 }
-#nav-list{
+#nav_list{
     display: flex;
     list-style: none;
     gap: 48px;
@@ -59,7 +59,7 @@ header{
     display: none;
 }
 @media screen and (max-width: 1170px) {
-    #nav_list, #navbar .btn-defaul{
+    #nav_list, #navbar .btn-default{
         display: none;
     }
     #mobile_btn{
@@ -69,7 +69,7 @@ header{
         font-size: 1.5rem;
         cursor: pointer;
     }
-    #mobile_menu.nav-item.active{
+    #mobile_menu.active{
         display: flex;
         flex-direction: column;
         align-items: center;
