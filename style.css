@@ -251,6 +251,12 @@ header{
     border-radius: 0px 37.5px 0px 42.5px;
 
 }
+.dish-image{
+    width: 14rem;
+    height: 14rem;
+    border-radius: 50px;
+    object-fit: cover;
+}
 .dish-description{
     color: #2c0041;
     text-align: center;
@@ -289,9 +295,22 @@ header{
     justify-content: center;
     gap: 48px;
 }
-#testimonial{
+.testimonial{
     width: 500px;
     height: auto;
+    border-radius: 50px;
+}
+.btn-default-feedback{
+    width: 10rem;
+    height: 3.5rem;
+    border-radius: 10px;
+    background-color: #e2a2ff;
+    cursor: pointer;
+    transition: .3s ease;
+    font-weight: 600;
+}
+.btn-default-feedback:hover{
+    background-color: #c57fff;
 }
 #comentarios .section-subtitle{
     font-size: 3rem;
@@ -359,21 +378,25 @@ header{
     }
 
     /* footer */
-#footer-item{
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 8% 24px 8%;
-    align-items: center;
-}
-#copyright{
-    color: #eb6d6d;
-}
-footer{
-    background-color:  #c176ff;
-}
-@media screen and (max-width: 600px){
-    #footer-item{
-        flex-direction: column;
-        gap: 20px;
+    footer {
+        background-color: #e2a2ff;
     }
-}
+    
+    .footer_item {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 8% 20px 8%;
+        align-items: center;
+    }
+    
+    #copyright {
+        color: #2c0041;
+        font-weight: 500;
+    }
+    
+    @media screen and (max-width: 600px) {
+        .footer_item {
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
