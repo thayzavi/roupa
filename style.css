@@ -400,3 +400,45 @@ header{
             gap: 20px;
         }
     }
+    /* localizacao */
+#localizacao{
+    display: flex;
+    min-height: 50vh;
+    gap: 40rem;
+    align-items: center;
+    height: auto;
+    justify-content: center;
+}
+#localizacao i{
+    font-size: 10.5rem;
+    color: #bda0d4;
+}
+.localizacao-content h2{
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.localizacao-content span{
+    color: #ac9fb7;
+    font-size: 1.5rem;
+}
+.localizacao-content a{
+    text-decoration: none;
+}
+@media screen and (max-width: 1170px){
+    #localizacao{
+        flex-direction: column;
+    }
+    #localizacao .localizacao-content{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    #localizacao i{
+        display: none;
+        
+    }
+    #localizacao h2, p{
+        align-items: center;
+    }
+}
+

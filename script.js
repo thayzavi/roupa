@@ -56,4 +56,10 @@ $(document).ready(function(){
         duration: 1000,
         distance: '20%'
     })
+    ScrollReveal().reveal('#localizacao', {
+        origin: 'right',
+        duration: 1000,
+        distance: '20%'
+    })
+
 });
