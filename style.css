@@ -171,7 +171,7 @@ header{
     z-index: 2;
 }
 #banner img {
-    height: 100%;
+     width: min(500px, 100%);
     width: 38rem;
     height: 38rem;
     border-radius: 40% 40% 80%;
@@ -261,9 +261,6 @@ header{
     color: #2c0041;
     text-align: center;
 }
-.dish-rate i{
-    color:#eb6d6d ;
-}
 .dish-price{
     display: flex;
     align-items: center;
@@ -295,8 +292,8 @@ header{
     justify-content: center;
     gap: 48px;
 }
-.testimonial{
-    width: 500px;
+.testimonial {
+    width: min(500px, 100%);
     height: auto;
     border-radius: 50px;
 }
@@ -333,7 +330,7 @@ header{
     border-radius: 12px;
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
 }
-.feadback-avatar{
+.avatar {
     width: 100px;
     height: 100px;
     border-radius: 100%;
