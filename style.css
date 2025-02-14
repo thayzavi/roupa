@@ -1,3 +1,5 @@
+/* geral */
+
 *{
     font-family: sans-serif;
     margin: 0;
@@ -45,6 +47,8 @@ section{
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     transition: .3s ease;
+    right: -10px;
+    
 }
 .btn-default:hover{
     background-color: #bda0d4;
@@ -66,7 +70,7 @@ header{
     z-index: 3;
 }
 #navbar{
-    width: 100%;
+    width: 95%;
     display: flex;
     align-items: center;
     justify-content: space-between;
