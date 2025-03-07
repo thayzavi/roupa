@@ -6,7 +6,7 @@ Este é um projeto simples de uma página web que simula um catálogo de roupas.
 
 - **HTML**: Estrutura básica da página.
 - **CSS**: Estilização e layout da página.
-- **JavaScript**: Funcionalidades interativas (se houver).
+- **JavaScript**: Funcionalidades interativas.
 
 ## Como rodar o projeto 🖥️
 
